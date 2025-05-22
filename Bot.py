@@ -1,8 +1,8 @@
 import telebot
 import sqlite3
 
-TOKEN = 'ВАШ_ТОКЕН_БОТА'
-bot = telebot.TeleBot(TOKEN)
+TOKEN = '8037108704:AAEHLnr9B61CVfFBFfnfW0LolOhoi87qN6k'
+bot = telebot.TeleBot(8037108704:AAEHLnr9B61CVfFBFfnfW0LolOhoi87qN6k)
 
 # Создаём или подключаемся к базе данных SQLite
 conn = sqlite3.connect('referral_bot.db', check_same_thread=False)
